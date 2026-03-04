@@ -1,0 +1,31 @@
+{
+  "name": "service_app",
+  "namespace": "vix",
+  "version": "0.1.0",
+  "type": "header-only",
+  "include": "include",
+  "license": "MIT",
+  "description": "Production service application kit built on top of vix/api_app.",
+  "keywords": [
+    "cpp",
+    "vix",
+    "service",
+    "backend",
+    "microservice",
+    "api",
+    "infrastructure"
+  ],
+  "repository": "https://github.com/vixcpp/service_app",
+  "authors": [
+    {
+      "name": "Gaspard Kirira",
+      "github": "Gaspardkirira"
+    }
+  ],
+  "deps": [
+    {
+      "id": "vix/api_app",
+      "version": "0.1.0"
+    }
+  ]
+}
